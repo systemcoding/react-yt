@@ -12,4 +12,4 @@ This repo has all the files and folders from the reactjs series in youtube. All 
 
 `npm start`
 
-Then open https://localhost:3000/ to view the result.
+Then open https://localhost:3000/ in your browser to view the result.
