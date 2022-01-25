@@ -8,7 +8,16 @@ function Axios() {
     axios.get("https://randomuser.me/api/").then((res) => {
       setData(
         res.data.results.map((finalData) => (
-          <h3>{finalData.name.first + " " + finalData.name.second}</h3>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+            }}
+            key={finalData}
+          >
+            <h2>Random Name: </h2>
+            <h3>{finalData.name.first}</h3>
+          </div>
         ))
       );
     });

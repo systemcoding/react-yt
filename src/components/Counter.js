@@ -5,7 +5,7 @@ export default function Counter() {
   const disabled = true;
   return (
     <div>
-      <text>{count}</text> <br />
+      <div>{count}</div> <br />
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button
         disabled={count === 0 ? disabled : !disabled}

@@ -14,13 +14,12 @@ export default function Lists() {
   const numbers = [1, 2, 3, 4, 55, 667];
   return (
     <div>
-      {/* {numbers.map((dataRes) => {
+      {numbers.map((dataRes) => {
         return <h3>{dataRes * 10}</h3>;
-
-      })} */}
-      {/* {data.map((dataRes) => {
+      })}
+      {data.map((dataRes) => {
         return <h3 key={dataRes.id}>{dataRes.personOne}</h3>;
-      })} */}
+      })}
       {data.map((dataRes) => {
         return <h3>{dataRes.personOne}</h3>;
       })}
