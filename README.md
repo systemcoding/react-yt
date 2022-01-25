@@ -8,7 +8,7 @@ This repo has all the files and folders from the reactjs series in youtube. All 
 `cd react-yt`\
 `npm install` (To install all the dependencies and generate the node_modules directory) \
 
-### To start the project run:
+### To start the project:
 
 `npm start`
 
