@@ -4,9 +4,11 @@ This repo has all the files and folders from the reactjs series in youtube. All 
 
 ## How to clone this repo and use it
 
-`git clone https://github.com/systemcoding/react-yt`\
-`cd react-yt`\
-`npm install` (To install all the dependencies and generate the node_modules directory) \
+```
+git clone https://github.com/systemcoding/react-yt
+cd react-yt
+npm install
+```
 
 ### To start the project:
 
